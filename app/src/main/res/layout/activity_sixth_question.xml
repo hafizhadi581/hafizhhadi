@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtq61"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="#84FFFF"
+        android:fontFamily="monospace"
+        android:text="SIXTH QUESTION"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtq62"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#FFEA00"
+        android:fontFamily="monospace"
+        android:text="Does your child point with one finger to ask for something or to get help? "
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtq61" />
+
+    <TextView
+        android:id="@+id/txtq63"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="#FFEA00"
+        android:fontFamily="monospace"
+        android:text="FOR EXAMPLE, pointing to a snack or toy that is out of reach"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtq62" />
+
+    <RadioButton
+        android:id="@+id/rbq61"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TRUE"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtq63" />
+
+    <RadioButton
+        android:id="@+id/rbq62"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="FALSE"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rbq61" />
+
+    <ImageView
+        android:id="@+id/btnq62"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="316dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rbq62"
+        app:layout_constraintVertical_bias="0.15"
+        app:srcCompat="@drawable/buttonnext" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
